@@ -1,0 +1,12 @@
+  {
+    "name": "Glassfrog Button",
+    "version": "1.0",
+    "description": "Provide a button for submitting tensions during the Triage Issues portion of a glassfrog tactical meeting.",
+    "content_scripts": [
+        {
+            "matches": ["https://app.glassfrog.com/*"],
+            "js": ["addButton.js"]
+        }
+    ],
+    "manifest_version": 2
+  }
